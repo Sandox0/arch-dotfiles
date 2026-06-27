@@ -1,0 +1,98 @@
+placessidebar {
+    background-color: rgba(10, 10, 12, 0.78);
+}
+
+placessidebar row {
+    background-color: transparent;
+    color: #a0a0b0;
+}
+
+placessidebar row:hover {
+    background-color: rgba(107, 140, 173, 0.12);
+    color: #e0e0e0;
+}
+
+placessidebar row:selected {
+    background-color: rgba(107, 140, 173, 0.18);
+    color: #6b8cad;
+}
+
+placessidebar separator {
+    background-color: rgba(107, 140, 173, 0.15);
+}
+
+/* === Thunar: barra de ruta y toolbar === */
+pathbar button {
+    background-color: transparent;
+    border-radius: 999px;
+}
+
+pathbar button:hover {
+    background-color: rgba(107, 140, 173, 0.12);
+}
+
+pathbar button:checked {
+    background-color: rgba(107, 140, 173, 0.18);
+    color: #6b8cad;
+}
+
+headerbar, .titlebar {
+    background-color: transparent;
+}
+
+toolbar {
+    background-color: transparent;
+}
+
+/* === Vista de archivos: selección con pills === */
+.view:selected, .view selection {
+    background-color: rgba(107, 140, 173, 0.18);
+    color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.view:selected:focus {
+    background-color: rgba(107, 140, 173, 0.25);
+}
+
+/* === Barra de búsqueda y entradas de texto en Thunar === */
+entry {
+    background-color: rgba(10, 10, 12, 0.65);
+    color: #e0e0e0;
+    border: 1px solid rgba(107, 140, 173, 0.15);
+    border-radius: 999px;
+    box-shadow: none;
+}
+
+entry:focus {
+    border-color: #6b8cad;
+    box-shadow: none;
+}
+
+/* === Refinar barra de búsqueda Thunar (icono lupa arriba derecha) === */
+headerbar entry,
+.path-bar-box entry,
+entry.search {
+    background-color: rgba(107, 140, 173, 0.12);
+    color: #e0e0e0;
+    border: 1px solid rgba(107, 140, 173, 0.18);
+    border-radius: 999px;
+    min-height: 28px;
+    padding: 2px 10px;
+}
+
+headerbar entry:focus,
+.path-bar-box entry:focus,
+entry.search:focus {
+    background-color: rgba(107, 140, 173, 0.18);
+    border-color: #6b8cad;
+}
+
+headerbar button.image-button {
+    border-radius: 999px;
+    background-color: transparent;
+}
+
+headerbar button.image-button:hover {
+    background-color: rgba(107, 140, 173, 0.12);
+}

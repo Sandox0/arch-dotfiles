@@ -1,0 +1,120 @@
+@import "colors.css";
+
+* {
+    font-family: "Lexend", "JetBrainsMono Nerd Font Mono";
+    font-weight: bold;
+}
+
+.control-center {
+    background: rgba(10, 10, 12, 0.78);
+    border: 1px solid rgba(107, 140, 173, 0.30);
+    border-radius: 25px;
+    box-shadow: none;
+}
+
+.notification {
+    background: rgba(10, 10, 12, 0.72);
+    border-radius: 25px;
+    border: 1px solid rgba(107, 140, 173, 0.25);
+    box-shadow: none;
+    margin: 10px;
+}
+
+.notification-content {
+    background: transparent;
+    padding: 20px;
+}
+
+.summary {
+    font-size: 16px;
+    color: #6b8cad;
+}
+
+.body {
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+.time {
+    font-size: 12px;
+    color: #a0a0b0;
+}
+
+.notification.critical {
+    background: rgba(10, 10, 12, 0.72);
+    border: 2px solid #c4785a;
+}
+
+.notification.critical .summary {
+    color: #c4785a;
+}
+
+.notification-action {
+    background: rgba(107, 140, 173, 0.10);
+    color: #e0e0e0;
+    border: 1px solid rgba(107, 140, 173, 0.15);
+    border-radius: 8px;
+    padding: 6px 12px;
+    box-shadow: none;
+}
+
+.notification-action:hover {
+    background: #6b8cad;
+    color: rgba(10, 10, 12, 0.95);
+    box-shadow: none;
+}
+
+.widget-title {
+    color: #6b8cad;
+    background: transparent;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.widget-title > button {
+    background: rgba(107, 140, 173, 0.12);
+    color: #e0e0e0;
+    border-radius: 8px;
+    padding: 6px 16px;
+    border: none;
+    box-shadow: none;
+}
+
+.widget-title > button:hover {
+    background: #c4785a;
+    color: rgba(10, 10, 12, 0.95);
+    box-shadow: none;
+}
+
+.widget-dnd {
+    background: transparent;
+    margin: 0px 20px;
+}
+
+.widget-dnd > switch {
+    background: rgba(107, 140, 173, 0.12);
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+.widget-dnd > switch:hover {
+    background: rgba(107, 140, 173, 0.20);
+    box-shadow: none;
+    border: none;
+}
+
+.widget-dnd > switch:checked {
+    background: #6b8cad;
+    border: none;
+    box-shadow: none;
+}
+
+.widget-dnd > switch:checked:hover {
+    background: #6b8cad;
+    box-shadow: none;
+}
+
+.widget-dnd > label {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+}

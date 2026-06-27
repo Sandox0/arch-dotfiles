@@ -1,0 +1,18 @@
+* {
+    primary:            #6b8cad;
+    on-primary:         #0a0a0c;
+    secondary:          #8aab8a;
+    on-secondary:       #0a0a0c;
+    surface:            rgba(10, 10, 12, 78%);
+    on-surface:         #e0e0e0;
+    surface-container:  rgba(107, 140, 173, 12%);
+    error:              #c4785a;
+    on-error:           #0a0a0c;
+
+    background:         rgba(10, 10, 12, 78%);
+    background-alt:     rgba(107, 140, 173, 12%);
+    foreground:         #e0e0e0;
+    selected:           #6b8cad;
+    active:             #8aab8a;
+    urgent:             #c4785a;
+}
