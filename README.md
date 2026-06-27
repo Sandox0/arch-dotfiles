@@ -1,6 +1,6 @@
-# 🌙 arch-dotfiles
+# arch-dotfiles
 
-> My personal Arch Linux + Hyprland configuration
+My personal Arch Linux + Hyprland configuration
 
 ![screenshot](./screenshot.png)
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 🖥️ System Info
+## System Info
 
 | Component | Details |
 |-----------|---------|
@@ -27,7 +27,7 @@
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/Sandox0/arch-dotfiles.git
@@ -38,7 +38,7 @@ chmod +x ./install.sh
 
 ---
 
-## 📋 Packages
+## Packages
 
 ```bash
 # main pkgs
@@ -60,7 +60,7 @@ yay -Syu --needed obs-studio gpu-screen-recorder cava btop \
 
 ---
 
-## 🎮 Extra
+## Extra
 
 **Install Spicetify (Spotify themes):**
 ```bash
@@ -74,10 +74,8 @@ sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/
 
 ---
 
-## 📸 Screenshots
-
-<!-- Add more screenshots here -->
+## Screenshots
 
 ---
 
-*Made with ❤️ on Arch Linux*
+*Made with passion on Arch Linux*
