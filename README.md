@@ -2,7 +2,7 @@
 
 My personal Arch Linux + Hyprland configuration
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshots/main.png)
 
 > [!NOTE]
 > These configs are made for me personally. Use at your own risk.
